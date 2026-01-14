@@ -9,9 +9,22 @@ This analysis seeks to explore relationships between various app attributes and 
 - Does a higher number of **installs** provide a clear indication of better **user ratings** compared to other apps?
 
 Understanding these relationships will help identify the attributes that contribute most significantly to app success and support data-driven feature development.
+## Data Cleaning
+
+- Removed duplicates, handled missing values, and filtered invalid ratings or zero installs.
+- Converted **Reviews, Installs, Price, and Size** into numeric formats.
+- Standardized categorical fields and created derived features for analysis.
+
+## Technologies Used
+
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
 
 
-- ## Key Insights
+  ## Key Insights
 
 - **App Size & Price**
   - App size and price have minimal impact on ratings; user experience matters more.
